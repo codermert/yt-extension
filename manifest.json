@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+
+  "name": "YouTube Downloader",
+  "description": "Youtube videolarını MP4 veya MP3 olarak dönüştürün! Developer ❤️ Coder Mert",
+  "version": "1.0",
+  "icons": { "128": "icon_128.png" },
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  
+  "background" : { "scripts" : ["eklenti.js"] },
+
+  "permissions": ["activeTab"]
+}

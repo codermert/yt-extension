@@ -1,0 +1,361 @@
+
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Coder Mert</title>
+    <meta charset="utf-8">
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Courgette&family=East+Sea+Dokdo"
+      rel="stylesheet"
+      type="text/css"
+    />
+
+    
+    <link href='https://fonts.googleapis.com/css2?family=Fugaz+One' rel='stylesheet'>
+
+    <link
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+    
+    <link rel="stylesheet" href="bootstrap.min.css">
+  <script src="jquery.min.js"></script>
+  <script src="bootstrap.min.js"></script>
+
+
+
+    
+
+   
+
+    <center>
+   <style>
+      /* Modal Structure */
+
+      html,
+      body {
+        font-family: "Quicksand", sans-serif;
+        font-size: 14px;
+        margin: 0;
+        min-height: 180px;
+        padding: 0;
+        width: 384px;
+      }
+
+      h1 {
+        font-family: "Courgette", monospace;
+        font-size: 22px;
+        font-weight: 400;
+        margin: 0;
+        color: #2f5876;
+      }
+
+      a:link,
+      a:visited {
+        color: #000000;
+        outline: 0;
+        text-decoration: none;
+      }
+
+      img {
+        width: 30px;
+      }
+
+      .modal-header {
+        align-items: center;
+        border-bottom: 0.5px solid #dadada;
+      }
+
+      .modal-content {
+        padding: 0 22px;
+      }
+
+      .modal-icons {
+        border-top: 0.5px solid #dadada;
+        height: 50px;
+        width: 100%;
+      }
+
+      .logo {
+        padding: 16px;
+      }
+
+      .logo-icon {
+        vertical-align: text-bottom;
+        margin-right: 12px;
+      }
+
+      .version {
+        color: #444;
+        font-size: 18px;
+      }
+
+      .flex-container {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 22px;
+      }
+
+      .flex {
+        opacity: 1;
+        transition: opacity 0.2s ease-in-out;
+        width: 120px;
+      }
+
+      .flex:hover {
+        opacity: 0.4;
+      }
+
+      .flex .fa {
+        font-size: 40px;
+        color: #2f5876;
+      }
+    </style>
+    
+    <style>
+
+a {
+  text-decoration: none;
+  color: #9ca0b1;
+}
+
+.wrapper {
+  text-align: center;
+}
+.wrapper h1 {
+  color: #fff;
+  font-size: 22px;
+  font-family: "ubuntu";
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  background: linear-gradient(to right, #095fab 10%, #25abe8 50%, rgb(237,99,87) 60%);
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 1.5s linear infinite;
+  display: inline-block;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+</style>
+    
+    <style>
+      body {
+          font-family: 'Fugaz One';font-size: 15px;
+      }
+      </style>
+      
+      <style>
+        .btn {
+          border: 2px solid black;
+          background-color: white;
+          color: black;
+          padding: 14px 28px;
+          font-size: 16px;
+          cursor: pointer;
+        }
+        
+        /* Green */
+        .success {
+          border-color: #4CAF50;
+          color: green;
+        }
+        
+        .success:hover {
+          background-color: #4CAF50;
+          color: white;
+        }
+        
+        /* Blue */
+        .info {
+          border-color: #2196F3;
+          color: dodgerblue;
+        }
+        
+        .info:hover {
+          background: #2196F3;
+          color: white;
+        }
+        
+        /* Orange */
+        .warning {
+          border-color: #ff9800;
+          color: orange;
+        }
+        
+        .warning:hover {
+          background: #ff9800;
+          color: white;
+        }
+        
+        /* Red */
+        .danger {
+          border-color: #f44336;
+          color: red;
+        }
+        
+        .danger:hover {
+          background: #f44336;
+          color: white;
+        }
+        
+        /* Gray */
+        .default {
+          border-color: #e7e7e7;
+          color: black;
+        }
+        
+        .default:hover {
+          background: #e7e7e7;
+        }
+        </style>
+
+
+
+    <script src="popup.js"></script>
+  </head>
+
+  
+  <body>
+    <div class="modal-header">
+      <h1 class="logo">
+        <img class="logo-icon" width="220" height="50" src="TR7QpB.gif" />YouTube Downloader
+        <span class="version"></span>
+      </h1>
+    </div>
+
+    
+    <div class="modal-content">
+      
+      <div class="container">
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" role="dialog">
+          <div class="modal-dialog">
+          
+            <!-- Modal content-->
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">☕️Beni Destekle</h4>
+              </div>
+              <div class="modal-body">
+                <p>Desteklemeniz  benim daha harika seyler olusturmam icin beni motive edecek! Hadi Destekle😎</p>
+                <br>
+                <br>
+                <i class="fa fa-cc-visa fa-1x " style="color:rgb(237,99,87) "></i><i style="color:rgb(237,99,87)"> ZIRAAT IBAN</i>
+                <p>TR 27 0001 0009 0691 7800 6650 01</p>
+                <br> <i class="fa fa-chrome fa-1x " style="color:rgb(237,99,87) "></i><i style="color:rgb(237,99,87)"> E-POSTA ADRESIM</i>
+                <p>codermert@bk.ru</p>
+                <br>
+                <div class="wrapper">
+                  <h1>Coder Mert</h1>
+                </div>
+              </div>
+              <div class="modal-footer">
+              </div>
+              
+            </div>
+            
+          </div>
+        </div>
+      
+      <br>
+
+      <div class="alert alert-danger">
+
+       <div class="row">
+        <div class="col-md-12">
+          <div class="form-group">
+            <label class="text-weight"><b>YouTube Video Link : </b></label>
+            <input type="txt" name="link" class="form-control link" required>
+          </div>
+        </div>
+      </div>
+        <div class="row">
+          <div class="col-md-12">
+            <div class="form-group">
+              <label class="text-weight"><b>Video Formati Seçin:</b></label>
+              <select class="form-control formte" required>
+                <option selected disabled>#Video Format Seç</option>
+                <option value="mp3">320 Kbps MP3</option>
+                <option value="mp4a">144 MP4</option>
+                <option value="360">360 MP4</option>
+                <option value="480">480 MP4</option>
+                <option value="720">720 MP4</option>
+                <option value="1080">1080 MP4</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <div class="form-group mt-4 download-video">
+              <button class="btn btn-danger btn-block click-btn-down" type="submit">Dönüstür</button>
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+
+</div>
+
+
+</body>
+
+<script src="index.js"></script>
+
+
+      </div>
+
+
+      
+    </div>
+    <div class="modal-icons">
+      <br>
+      <div class="flex-container">
+        <div class="flex">
+          <a data-toggle="modal" data-target="#myModal">
+            <i class="fa fa-cc-visa " style="color:rgb(237,99,87) "></i>
+          </a>
+        </div>
+        <div class="flex">
+          <a href="https://twitter.com/codermert" target="_blank">
+            <i class="fa fa-twitter" style="color:rgb(237,99,87)"></i>
+          </a>
+        </div>
+        <div class="flex">
+          <a href="https://www.github.com/codermert" target="_blank">
+            <i class="fa fa-github" style="color:rgb(237,99,87) "></i>
+          </a>
+        </div>
+        <div class="flex">
+          <a href="https://open.spotify.com/artist/37evpjuqng7tSHaeFNWniF" target="_blank">
+            <i class="fa fa-spotify" style="color:rgb(237,99,87) "></i>
+          </a>
+        </div>
+      </div>
+    </div>
+    <br>
+    <br>
+   <p> Developer ❤️ Coder Mert </p>
+   
+</center>
+
+
+
+  </body>
+</html>
